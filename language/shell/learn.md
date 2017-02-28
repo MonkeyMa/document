@@ -3,3 +3,4 @@
 ## 1.2 sort uniq
 文件A，文件b
 交集：cat A B | sort | uniq -d
+差集 cat A B B | sort | uniq -u
